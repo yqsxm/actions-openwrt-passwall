@@ -40,7 +40,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Initialization environment
+    - name: Initialization environment 
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
