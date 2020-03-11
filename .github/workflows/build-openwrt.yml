@@ -14,12 +14,12 @@ on:
   push:
     branches:
       - master
-#    paths:
-#      - '.config'
-#  schedule:
-#    - cron: 0 2 * * 5
-#  watch:
-#    types: [started]
+    paths:
+      - '.config'
+  schedule:
+    - cron: 0 2 * * 5
+  watch:
+    types: [started]
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
@@ -96,7 +96,7 @@ jobs:
       run: |
         cd openwrt
         echo -e "$(nproc) thread compile"
-        make -j$(nproc) || make -j1 V=s
+        make -j$(nproc) || make -j3 V=s
         echo "::set-output name=status::success"
 
     - name: Upload bin directory
