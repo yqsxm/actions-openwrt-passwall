@@ -2,8 +2,8 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 # Lisence: MIT
-# Author: P3TERX
-# Blog: https://p3terx.com
+# Author: kenzo
+# Blog: https://github.com/kenzok8
 #=================================================
 
 name: kenzo OpenWrt
