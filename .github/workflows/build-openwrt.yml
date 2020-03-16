@@ -6,7 +6,7 @@
 # Blog: https://github.com/kenzok8
 #=================================================
 
-name: kenzo OpenWrt
+name: OpenWrt-19.07
 
 on:
   release:
@@ -119,5 +119,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: OpenWrt_firmware
+        name: Lienol-x64
         path: ${{ env.FIRMWARE }}
