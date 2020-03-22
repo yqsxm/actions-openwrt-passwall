@@ -96,7 +96,7 @@ jobs:
         make -j$(nproc) V=s
         echo "::set-output name=status::success"
 
-   - name: 组装固件
+    - name: 组装固件
       run: |
           rm -rf ./artifact/
           mkdir -p ./artifact/
@@ -106,5 +106,5 @@ jobs:
     - name : 上传固件
       uses: actions/upload-artifact@master
       with:
-        name: passwall-actions
+        name: passwall-x64
         path: ./artifact/
