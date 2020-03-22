@@ -1,4 +1,4 @@
-#=================================================
+﻿#=================================================
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 # Lisence: MIT
@@ -6,7 +6,7 @@
 # Blog: https://github.com/kenzok8
 #=================================================
 
-name: OpenWrt-19.07
+name: passwall
 
 on:
   release:
