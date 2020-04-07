@@ -20,3 +20,14 @@
 
 
 ### 使用同步`.config`多流程编译移步[Actions-Lean-OpenWrt](https://github.com/Lancenas/Actions-Lean-OpenWrt)
+
+##### 固件下载链接
+
+[Lean固件下载地址](https://github.com/kenzok8/LEDE-x86_64/actions)
+
+[Lean固件下载地址](https://github.com/kenzok8/LEDE-x86_64/actions)
+
+#### 固件包含
+
+#### SSRPLUS +passwall+clash+openclash
+
