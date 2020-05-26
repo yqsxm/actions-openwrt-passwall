@@ -1,7 +1,6 @@
 ﻿#=================================================
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
-# Lisence: MIT
 # Author: kenzo
 # Blog: https://github.com/kenzok8
 #=================================================
@@ -66,7 +65,12 @@ jobs:
 
     - name: 更新安装提要
       run: cd openwrt && ./scripts/feeds update -a && ./scripts/feeds install -a
-
+      
+    - name: 自定义安装源
+      working-directory: ./openwrt
+      run: |
+        git clone https://github.com/kenzok8/litte package/litte
+        
     - name: 加载自定义配置
       run: |
         [ -e files ] && mv files openwrt/files
