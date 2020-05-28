@@ -23,9 +23,11 @@
 
 ##### 固件下载链接
 
-[Lean固件下载地址](https://github.com/kenzok8/LEDE-x86_64/actions)
+[Lean固件下载地址](https://github.com/kenzok8/openwrt-actions/actions?query=workflow%3ALean-64)
 
-[Lienol固件下载地址](https://github.com/kenzok8/actions-openwrt-passwall/actions)
+[Lienol固件下载地址](https://github.com/kenzok8/openwrt-actions/actions?query=workflow%3ALienol-19.07)
+
+[CTC固件下载地址](https://github.com/kenzok8/openwrt-actions/actions?query=workflow%3Actc-19.07)
 
 #### 固件包含
 
