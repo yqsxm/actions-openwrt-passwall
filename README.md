@@ -21,15 +21,5 @@
 
 ### 使用同步`.config`多流程编译移步[Actions-Lean-OpenWrt](https://github.com/Lancenas/Actions-Lean-OpenWrt)
 
-##### 固件下载链接
 
-[Lean固件下载地址](https://github.com/kenzok8/openwrt-actions/actions?query=workflow%3ALean-64)
-
-[Lienol固件下载地址](https://github.com/kenzok8/openwrt-actions/actions?query=workflow%3ALienol-19.07)
-
-[CTC固件下载地址](https://github.com/kenzok8/openwrt-actions/actions?query=workflow%3Actc-19.07)
-
-#### 固件包含
-
-#### SSRPLUS +passwall+clash+openclash （Lienol固件多smartdns）
 
