@@ -15,8 +15,8 @@ on:
       - master
     paths:
       - '.config'
-  schedule:
-    - cron: 0 2 * * 5
+  #schedule:
+  #  - cron: 0 2 * * 5
   watch:
     types: [started]
 
@@ -110,5 +110,5 @@ jobs:
     - name : 上传固件
       uses: actions/upload-artifact@master
       with:
-        name: passwall-x64
+        name: passwall-x32
         path: ./artifact/
