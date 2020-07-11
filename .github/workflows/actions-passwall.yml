@@ -129,4 +129,5 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         name: passwall-x32
-        path: ./artifact/
+        path: openwrt/bin
+        # path: ./artifact/
