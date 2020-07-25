@@ -88,7 +88,16 @@ jobs:
       working-directory: ./openwrt
       run: |
         git clone https://github.com/kenzok8/litte package/litte
-       
+        #OpenAppFilter（应用过滤）：
+        #git clone https://github.com/destan19/OpenAppFilter
+        #KoolproxyR（去广告）：
+        git clone https://github.com/jefferymvp/luci-app-koolproxyR
+        #ServerChan（微信推送）：
+        git clone https://github.com/tty228/luci-app-serverchan
+        #Jd-Dailybonus（京东自动签到）
+        #cd lede/package/lean/ 
+        git clone https://github.com/jerrykuku/node-request.git  #git node-request 依赖
+        git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
         
     - name: 加载自定义配置
       run: |
